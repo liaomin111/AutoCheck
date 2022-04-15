@@ -47,14 +47,18 @@ himeno
 off
 ```
 5. Enter the name of the function where the main computation loop is located
+```
 jacobi
 ```
-5. Enter the location where the function for which the main calculation loop exists is called
+6. Enter the location where the function for which the main calculation loop exists is called
+```
 116
 ```
-6. Enter the line number at the beginning of the main calculation loop
+7. Enter the line number at the beginning of the main calculation loop
+```
 186
 ```
-7. Enter the line number of the end of the main calculation loop
+8. Enter the line number of the end of the main calculation loop
+```
 217
 ```
