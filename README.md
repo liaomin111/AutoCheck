@@ -4,7 +4,7 @@ We provide a docker image with AutoCheck pre-installed.
 
 1. Docker Pull Command
 ```
-docker pull ...
+docker pull abclhm/auto-check:latest
 ```
 2. Create container
 ```
@@ -29,3 +29,32 @@ cd /workspace/AutoCheck/build
 ```
 Test with run.sh:
 ------
+Example benchmark :Himeno
+1. Go to Autocheck 
+```
+cd /workspace/AutoCheck/build
+```
+2. Execute run.sh
+```
+./auto.sh
+```
+3. Enter the name of the trace file to be tested
+```
+himeno
+```
+4. Enable or disable OpenMP acceleration (on or off)
+```
+off
+```
+5. Enter the name of the function where the main computation loop is located
+jacobi
+```
+5. Enter the location where the function for which the main calculation loop exists is called
+116
+```
+6. Enter the line number at the beginning of the main calculation loop
+186
+```
+7. Enter the line number of the end of the main calculation loop
+217
+```
