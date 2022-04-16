@@ -79,17 +79,21 @@ Example benchmark :Himeno
 cd /workspace/Benchmarks/checkpoint/himeno/build
 ```
 cmake .. && make
-```
+
 2. Execute himeno
+```
 ./himeno 0
-```
+
 3. Restart himeno
+```
 ./himeno 1
-```
+
 4. Go to the working directory of the original Himeno program and compile it to get the executable file
+```
 cd /workspace/Benchmarks/varify/himeno && make
-```
+
 5. Execute himeno
-./himeno
 ```
+./himeno
+
 
