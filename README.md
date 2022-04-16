@@ -65,6 +65,10 @@ jacobi
 
 Validation:
 ------------
+We provide a homemade library with C/R functionality, and we add C/R code to all 10 benchmarks. 
+When executing our modified program, we only need to add one parameter (0 to start the program 
+normally, 1 to start the program from the checkpoint file) to invoke the C/R functionality.
+
 To verify the correctness of the variables provided by AutoCheck for checkpointing, we run the same 
 benchmark three times (twice with the C/R code added and once with the original benchmark).
 First, we execute the program with the C/R code which will be interrupted by the fail-stop failure we simulated, 
