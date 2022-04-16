@@ -8,14 +8,14 @@ docker pull abclhm/auto-check:latest
 ```
 2. Create container
 ```
-docker run -it --name autocheck  autocheck /bin/bash
+docker run -it abclhm/auto-check:latest /bin/bash
 ```
 Run:
 ------
-We provide two scripts for testing (auto.sh and run.sh). Using the auto.sh script 
-all experiments performed in our paper are automatically executed and the results are stored in result directory. 
+We provide two scripts for testing (auto.sh and run.sh). With the auto.sh script 
+all experiments performed in our paper are automatically executed and the results are  stored in the result directory (/workspace/AutoCheck/build/result). 
 Using run.sh, you can follow the script prompts to enter the trace file location and the information about the location of the 
-main computation loop to perform a single benchmark test, and the results will be stored in the results directory.
+main computation loop to perform a single benchmark test, and the results will be  stored in the result directory .
 
 Test with auto.sh:
 ------
@@ -36,7 +36,7 @@ cd /workspace/AutoCheck/build
 ```
 2. Execute run.sh
 ```
-./auto.sh
+./run.sh
 ```
 3. Enter the name of the trace file to be tested
 ```
