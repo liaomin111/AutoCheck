@@ -14,8 +14,8 @@ Run:
 ------
 We provide two scripts for testing (auto.sh and run.sh). With the auto.sh script 
 all experiments performed in our paper are automatically executed and the results are  stored in the result directory (/workspace/AutoCheck/build/result). 
-Using run.sh, you can follow the script prompts to enter the trace file location and the information about the location of the 
-main computation loop to perform a single benchmark test, and the results will be  stored in the result directory .
+With the run.sh script, you can follow the script prompts to enter the trace file location and the information about the location of the 
+main computation loop to perform a single benchmark test, and the results will be  stored in the result directory.
 
 Test with auto.sh:
 ------
