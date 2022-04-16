@@ -62,3 +62,34 @@ jacobi
 ```
 217
 ```
+
+Validation:
+------------
+To verify the correctness of the variables provided by AutoCheck for checkpointing, we run the same 
+benchmark three times (twice with the C/R code added and once with the original benchmark).
+First, we execute the program with the C/R code which will be interrupted by the fail-stop failure we simulated, 
+then we restart the program with the data of the critical variables we stored in memory. 
+Finally, we execute the original program and verify whether the program restarted successfully by comparing the 
+execution result of the original program with the result of the restarted program.
+
+Example benchmark :Himeno
+------------------------------------
+1. Go to Himeno's (with C/R enable)  working directory and compile the executable file
+```
+cd /workspace/Benchmarks/checkpoint/himeno/build
+```
+cmake .. && make
+```
+2. Execute himeno
+./himeno 0
+```
+3. Restart himeno
+./himeno 1
+```
+4. Go to the working directory of the original Himeno program and compile it to get the executable file
+cd /workspace/Benchmarks/varify/himeno && make
+```
+5. Execute himeno
+./himeno
+```
+
