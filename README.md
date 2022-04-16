@@ -77,23 +77,23 @@ Example benchmark :Himeno
 1. Go to Himeno's (with C/R enable)  working directory and compile the executable file
 ```
 cd /workspace/Benchmarks/checkpoint/himeno/build
-```
-cmake .. && make
 
+cmake .. && make
+```
 2. Execute himeno
 ```
 ./himeno 0
-
+```
 3. Restart himeno
 ```
 ./himeno 1
-
+```
 4. Go to the working directory of the original Himeno program and compile it to get the executable file
 ```
 cd /workspace/Benchmarks/varify/himeno && make
-
+```
 5. Execute himeno
 ```
 ./himeno
-
+```
 
