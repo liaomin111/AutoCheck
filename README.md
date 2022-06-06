@@ -2,6 +2,12 @@ AutoCheck
 ====
 AutoCheck is a dependency analysis tool, which aims to autmatically identify objects for checkpointing for large-scale machine learning models and HPC applications.
 
+Requirements:
+-------------------
+  1. LLVM-Tracer 1.2.
+  2. CMake 3.5.1 or newer.
+  3. graphviz 2.38.0 or newer.
+
 Docker setup
 ====
 We provide a docker image with AutoCheck pre-installed.
