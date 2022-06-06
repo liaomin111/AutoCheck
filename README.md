@@ -1,3 +1,7 @@
+AutoCheck
+====
+AutoCheck is a dependency analysis tool, which aims to autmatically identify objects for checkpointing for large-scale machine learning models and HPC applications.
+
 Docker setup
 ====
 We provide a docker image with AutoCheck pre-installed.
