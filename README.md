@@ -4,6 +4,10 @@ AutoCheck is a dependency analysis tool, which aims to autmatically identify obj
 
 Requirements:
 -------------------
+We *highly* recommend that users use the provided Docker image, available for
+download [here](https://hub.docker.com/repository/docker/abclhm/auto-check).
+This will solve basically all environment issues. If you cannot use Docker,
+then read on.
   1. LLVM-Tracer 1.2.
   2. CMake 3.5.1 or newer.
   3. graphviz 2.38.0 or newer.
