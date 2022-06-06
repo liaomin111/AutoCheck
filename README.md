@@ -8,6 +8,21 @@ Requirements:
   2. CMake 3.5.1 or newer.
   3. graphviz 2.38.0 or newer.
 
+Build:
+-------------------
+  1. Clone AutoCheck
+```
+  git clone https://github.com/liaomin111/AutoCheck.git
+  cd AutoCheck/
+```
+  2. Install
+```
+  mkdir build/
+  cd build
+  cmake ..
+  make
+```
+    
 Docker setup
 ====
 We provide a docker image with AutoCheck pre-installed.
