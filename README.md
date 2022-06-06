@@ -100,8 +100,17 @@ Benchmark's main loop location
 Benchmark | function | call location | start line | end line
 -----| -----| -----| -----| -----
 Himeno | jacobi | 116 | 186 | 217
------| -----| -----| -----| -----
 HPCCG | HPCCG | 138 | 118 | 146
+CG | main | 0 | 296 | 330
+MG | main | 0 | 266 | 276
+FT | appft | 74 | 109 | 119
+SP | main | 0 | 184 | 190
+EP | main | 0 | 168 | 213
+IS | main | 0 | 732 | 736
+BT | main | 0 | 180 | 186
+LU | ssor | 205 | 115 | 267
+CoMD | main | 0 | 180 | 186
+miniAMR | ssor | 205 | 115 | 267
 
 Validation:
 ------------
