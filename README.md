@@ -100,6 +100,7 @@ Benchmark's main loop location
 Benchmark | function | call location | start line | end line
 -----| -----| -----| -----| -----
 Himeno | jacobi | 116 | 186 | 217
+-----| -----| -----| -----| -----
 HPCCG | HPCCG | 138 | 118 | 146
 
 Validation:
