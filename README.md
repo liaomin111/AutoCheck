@@ -6,7 +6,8 @@ Requirements:
 -------------------
 We *highly* recommend that users use the provided Docker image, available for
 download [here](https://hub.docker.com/repository/docker/abclhm/auto-check).
-This will solve basically all environment issues. If you cannot use Docker,
+This will solve basically all environment issues, and, the it holds all the examples we 
+used for testing (including the generated trace). If you cannot use Docker,
 then read on. Also, we cover Docker installation and using AutoCheck in detail below.
   1. LLVM-Tracer 1.2 (available for download [here](https://github.com/harvard-acc/LLVM-Tracer/tree/llvm-3.4), and follow
 the instructions on the page to install).
@@ -93,6 +94,13 @@ jacobi
 217
 ```
 
+Benchmark's main loop location
+------------
+
+Benchmark | function | call location | start line | end line
+-----| -----| -----| -----| -----
+Himeno | jacobi | 116 | 186 | 217
+
 Validation:
 ------------
 We provide a homemade library with C/R functionality, and we add C/R code to all 10 benchmarks. 
@@ -130,4 +138,6 @@ cd /workspace/Benchmarks/varify/himeno && make
 ```
 ./himeno
 ```
+
+
 
