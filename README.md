@@ -54,7 +54,7 @@ Test with auto.sh:
 ------
 1. Go to Autocheck 
 ```
-cd /workspace/AutoCheck/build
+cd /path/to/your/AutoCheck/build
 ```
 2. Execute auto.sh
 ```
@@ -65,7 +65,7 @@ Test with run.sh:
 Example benchmark :Himeno
 1. Go to Autocheck 
 ```
-cd /workspace/AutoCheck/build
+cd /path/to/your/AutoCheck/build
 ```
 2. Execute run.sh
 ```
@@ -131,7 +131,7 @@ Example benchmark :Himeno
 ------------------------------------
 1. Go to Himeno's (with C/R enable)  working directory and compile the executable file
 ```
-cd /workspace/Benchmarks/checkpoint/himeno/build
+cd /path/to/your/Benchmarks/checkpoint/himeno/build
 
 cmake .. && make
 ```
@@ -145,7 +145,7 @@ cmake .. && make
 ```
 4. Go to the working directory of the original Himeno program and compile it to get the executable file
 ```
-cd /workspace/Benchmarks/varify/himeno && make
+cd /path/to/your/Benchmarks/varify/himeno && make
 ```
 5. Execute himeno
 ```
