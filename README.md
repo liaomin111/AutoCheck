@@ -2,6 +2,20 @@ AutoCheck
 ====
 AutoCheck is a dependency analysis tool, which aims to autmatically identify objects for checkpointing for large-scale machine learning models and HPC applications.
 
+Docker setup
+====
+We *highly* recommend that the reviewers use the docker container for NO prerequisite 
+software installation, which could take a few hours to setup.
+
+1. Docker Pull Command
+```
+docker pull abclhm/auto-check:latest
+```
+2. Create container
+```
+docker run -it abclhm/auto-check:latest /bin/bash
+```
+
 Requirements:
 -------------------
 We *highly* recommend that users use the provided Docker image, available for
@@ -28,19 +42,7 @@ Build:
   cmake ..
   make
 ```
-    
-Docker setup
-====
-We provide a docker image with AutoCheck pre-installed.
 
-1. Docker Pull Command
-```
-docker pull abclhm/auto-check:latest
-```
-2. Create container
-```
-docker run -it abclhm/auto-check:latest /bin/bash
-```
 Run:
 ------
 We provide two scripts for testing (auto.sh and run.sh). With the auto.sh script 
