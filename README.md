@@ -16,7 +16,7 @@ docker pull abclhm/auto-check:latest
 docker run -it abclhm/auto-check:latest /bin/bash
 ```
 
-Installing with source code
+Install with source code
 ======
 If you cannot use Docker, then read on. It may take a few hours to install the following prerequisite software.
 
